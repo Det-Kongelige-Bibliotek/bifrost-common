@@ -1,0 +1,25 @@
+<!-- HEADER
+---------------------------------------------------------------------------->
+<header id="header" class="navbar">
+  <div class="navbar-inner">
+    <div class="container">
+      <%= link_to root_path, :class => "brand" do %>
+          <%# FIXME: The two logos should be a designated header logo with text for none phones and without text for phones %>
+          <img src="/assets/bifrost/footerLogo.png" alt="Det Kongelige Bibliotek" class="visible-phone">
+          <img src="/assets/bifrost/footerLogo.png" alt="Det Kongelige Bibliotek" class="hidden-phone">
+      <%end%>
+      <%#= render :partial=>'/user_util_links' %>
+    </div>
+  </div>
+</header>
+
+<!-- BREADCRUMB
+---------------------------------------------------------------------------->
+<nav id="breadcrumb">
+  <div class="container">
+    <ol class="breadcrumb">
+      <li><a href="http://bifrost.kb.dk">Bifrost</a> <span class="divider">/</span></li>
+      <li><a href="<%= root_url %>"><%= t('blacklight.application_name') %></a> </li>
+    </ol>
+  </div>
+</nav>
