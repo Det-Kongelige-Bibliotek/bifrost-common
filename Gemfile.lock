@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bifrost (0.0.1)
+    bifrost-common (0.0.1)
       rails (~> 4.0.5)
 
 GEM
@@ -82,5 +82,5 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  bifrost!
+  bifrost-common!
   sqlite3
