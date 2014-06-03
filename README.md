@@ -8,6 +8,11 @@ If you are building a Bifrost head, strongly consider using this gem. Any common
 application specific logic should go into your own app. If we can make this gem the central place for all Bifrost
 functionality, we can make the process of creating and deploying Bifrost heads much more streamlined.
 
+To include it in your app, add the following line to your Gemfile:
+```ruby
+gem 'bifrost-common', github: 'Det-Kongelige-Bibliotek/bifrost-common'
+```
+
 It also contains a generator which will copy a KB specific `schema.xml` file into your `solr_conf` directory.
 Run the generator after you've run the `hydra:install`. To run it, enter:
 ```ruby
