@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bifrost-common (0.0.1)
+    bifrost-common (0.0.2)
       rails (~> 4.0.5)
 
 GEM
