@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.homepage    = "http://www.kb.dk"
   s.summary     = "Wrapper for common Bifrost functionality and styling"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  s.files = Dir["{app,config,db,lib}/**/*", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.0.5"
